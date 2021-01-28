@@ -1,0 +1,1 @@
+﻿**Application Context**는 **Bean Factory**를 확장한 IoC컨테이너로 Bean Factory의 기본적인 기능을 그대로 유지한채 스프링이 제공하는 각종 기능들을 추가 제공한다. Bean Factory를 쓸 때에는 **Bean**의 생성과 제어의 관점이고 Application Context는 스프링이 제공하는 애플리케이션 지원기능으로 모두 포함하는 이야기이다. 자바에서는 Application Context가 Bean Factory를 상속받으면서 Bean Factory기능을 유지하며 스프링의 부가적인 기능을 넣어 확장한다.
